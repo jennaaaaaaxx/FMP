@@ -44,6 +44,12 @@ TagManager:
   - name: Tilemap
     uniqueID: 563351037
     locked: 0
+  - name: Over BG
+    uniqueID: 2911281537
+    locked: 0
+  - name: Over Over BG
+    uniqueID: 1374713605
+    locked: 0
   - name: Player
     uniqueID: 3831082737
     locked: 0
