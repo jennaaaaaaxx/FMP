@@ -50,6 +50,9 @@ TagManager:
   - name: Over Over BG
     uniqueID: 1374713605
     locked: 0
+  - name: NPCs
+    uniqueID: 3765666381
+    locked: 0
   - name: Player
     uniqueID: 3831082737
     locked: 0

@@ -136,6 +136,10 @@ PrefabInstance:
       value: SceneSwapper
       objectReference: {fileID: 0}
     - target: {fileID: 5649443105058958101, guid: a093f67a2a8c07045ade2a1f664a8815, type: 3}
+      propertyPath: exitPoint
+      value: Test House Out
+      objectReference: {fileID: 0}
+    - target: {fileID: 5649443105058958101, guid: a093f67a2a8c07045ade2a1f664a8815, type: 3}
       propertyPath: levelToLoad
       value: Testing Scene
       objectReference: {fileID: 0}
@@ -4620,6 +4624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 1}
+  pointName: Test House In
 --- !u!4 &1604742115
 Transform:
   m_ObjectHideFlags: 0
