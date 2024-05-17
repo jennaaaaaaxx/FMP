@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
 
     public string startPoint;
 
+    public bool canMove;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,8 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        canMove = true;
     }
 
     // Update is called once per frame
@@ -41,6 +45,12 @@ public class PlayerController : MonoBehaviour
     {
 
         playerMoving = false;
+
+        if(!canMove)
+        {
+            myRigidbody.velocity = Vector2.zero;
+            return;
+        }
 
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
