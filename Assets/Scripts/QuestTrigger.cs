@@ -29,7 +29,19 @@ public class QuestTrigger : MonoBehaviour
     {
         if(other.gameObject.name == "Player")
         {
+            if(!theQM.questCompleted[questNumber])
+            {
+                if(startQuest && !theQM.quests[questNumber].gameObject.activeSelf)
+                {
+                    theQM.quests[questNumber].gameObject.SetActive(true);
+                    theQM.quests[questNumber].StartQuest();
+                }
 
+                if(endQuest && theQM.quests[questNumber].gameObject.activeSelf)
+                {
+                    theQM.quests[questNumber].EndQuest();
+                }
+            }
         }
     }
 }
