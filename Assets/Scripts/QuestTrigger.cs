@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class QuestTrigger : MonoBehaviour
 {
-    // 5:47 in the video :3
 
     private QuestManager theQM;
 
