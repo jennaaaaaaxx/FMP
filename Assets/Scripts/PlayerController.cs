@@ -22,11 +22,14 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove;
 
+    private SFXManager sfxMan;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         if(!playerExists)
         {

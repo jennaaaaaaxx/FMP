@@ -10,10 +10,13 @@ public class NewBehaviourScript : MonoBehaviour
 
     public string itemName;
 
+    private SFXManager sfxMan;
+
     // Start is called before the first frame update
     void Start()
     {
         theQM = FindObjectOfType<QuestManager>();
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
     // Update is called once per frame
@@ -30,6 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 theQM.itemCollected = itemName;
                 gameObject.SetActive(false);
+                sfxMan.itemPickup1.Play();
             }
         }
     }
