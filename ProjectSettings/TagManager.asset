@@ -50,6 +50,9 @@ TagManager:
   - name: Over Over BG
     uniqueID: 1374713605
     locked: 0
+  - name: Decoration
+    uniqueID: 4232062907
+    locked: 0
   - name: Pickups
     uniqueID: 1377918391
     locked: 0
