@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class StartButton : MonoBehaviour
 {
-
+    public MusicSwitcher musicSwitcher;
     void Start()
     {
 
@@ -15,5 +15,10 @@ public class StartButton : MonoBehaviour
     public void OpenScene()
     {
         SceneManager.LoadScene("City 1");
+
+        if(musicSwitcher)
+        {
+            musicSwitcher.UpdateMusic(MusicState.GameOne);
+        }
     }
 }

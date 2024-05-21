@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90404be002252774689ad1e74421c78a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicSwitcher: {fileID: 331454729}
 --- !u!4 &298869918
 Transform:
   m_ObjectHideFlags: 0
@@ -204,6 +205,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb9d25b592b7dcb4c8a48fbe75f0d885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &331454729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2134516011738435647, guid: 7b7dd02eb6ceb9a4f89dd40061082482, type: 3}
+  m_PrefabInstance: {fileID: 1046785791}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 612c1e9f4d1f9494292dd045249a5d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &826453321
@@ -432,7 +444,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 20649638287931898, guid: 7b7dd02eb6ceb9a4f89dd40061082482, type: 3}
+    - {fileID: 1035035936026075684, guid: 7b7dd02eb6ceb9a4f89dd40061082482, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

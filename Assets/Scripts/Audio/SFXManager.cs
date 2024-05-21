@@ -18,7 +18,7 @@ public class SFXManager : MonoBehaviour
         if(!sfxManExists)
         {
             sfxManExists = true;
-            DontDestroyOnLoad(transform.gameObject);
+            DontDestroyOnLoad(transform.root.gameObject);
         }
         else
         {
