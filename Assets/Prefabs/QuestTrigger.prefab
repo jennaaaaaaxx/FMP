@@ -26,12 +26,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7853109897336205919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5983635014839352266
 BoxCollider2D:
@@ -76,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8, y: 10}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6833002504510056308
 MonoBehaviour:
@@ -90,6 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062fae9d32bbb104aa0679fc22364ec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questNumber: 2
-  startQuest: 1
+  questNumber: 0
+  startQuest: 0
   endQuest: 0

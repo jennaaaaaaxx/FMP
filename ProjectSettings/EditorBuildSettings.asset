@@ -10,9 +10,6 @@ EditorBuildSettings:
     guid: 67cc61f7b011b3f46ae359f019fcc5be
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Credits.unity
-    guid: 4b3555c9452034c4c823592f5a8cc626
-  - enabled: 1
-    path: Assets/Scenes/Menu Scenes/Settings.unity
     guid: 974106b54e1290d4fa3da647575c1951
   - enabled: 1
     path: Assets/Scenes/Play Scenes/Exteriors/City 1.unity
@@ -20,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Play Scenes/Interiors/City 1/House 1.unity
     guid: 7b9022d7dc0257c489e7d24dedb48301
+  - enabled: 1
+    path: Assets/Scenes/Play Scenes/Interiors/City 1/House 2.unity
+    guid: 7825ea93c99ea92409a95a1ba49fb49a
+  - enabled: 1
+    path: Assets/Scenes/Play Scenes/Interiors/City 1/House 3.unity
+    guid: 534dad2fb4d5e1d4fb61699a76ece136
   m_configObjects: {}
