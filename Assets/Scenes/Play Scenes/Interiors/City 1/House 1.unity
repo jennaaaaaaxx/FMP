@@ -4493,6 +4493,10 @@ PrefabInstance:
       value: Hey, can you pick that can up over there please? I need to collect them
         so that I can take them to the recycling centre later.
       objectReference: {fileID: 0}
+    - target: {fileID: 6487936054800684015, guid: 60adb6de9e36dc149824a819dfd246ff, type: 3}
+      propertyPath: targetItem
+      value: Quest3Can
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5014,7 +5018,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8032553116985485594, guid: 2fa74adfe54e2014c8e019ed344f13d6, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4059567546334405986, guid: 2fa74adfe54e2014c8e019ed344f13d6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa74adfe54e2014c8e019ed344f13d6, type: 3}
