@@ -3993,6 +3993,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3250450266405279319, guid: 60adb6de9e36dc149824a819dfd246ff, type: 3}
+      propertyPath: endText
+      value: Thanks. Keep it if you want, reduce, reuse, recycle or whatever they
+        say.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250450266405279319, guid: 60adb6de9e36dc149824a819dfd246ff, type: 3}
+      propertyPath: startText
+      value: Hey, can you pick the bottle up from there while you're here? Bad hangover.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250450266405279319, guid: 60adb6de9e36dc149824a819dfd246ff, type: 3}
       propertyPath: targetItem
       value: Quest1Bottle
       objectReference: {fileID: 0}
